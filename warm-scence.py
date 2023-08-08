@@ -14,7 +14,7 @@ from sklearn.neighbors import kneighbors_graph
 from torch_geometric.data import Data, DataLoader
 
 from Net import *
-from smiles2vector import load_drug_smile, convert2graph
+from vector import load_drug_smile, convert2graph
 from utils import *
 
 raw_file = 'data_WS/raw_frequency_750.mat'
