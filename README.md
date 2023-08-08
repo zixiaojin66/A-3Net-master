@@ -36,5 +36,15 @@ This folder contains side effects and drugs data in warm start scence.
 This folder contains side effects and drugs data in cold start scence.
 
 # Code 
-Net.py: It defines the model used by the code.
+Net.py: It defines the model.
 vector.py: It defines a method to calculate the smiles of drugs as vertices and edges of a graph.
+utils.py: It defines some other functions.
+warm-scence.py: Warm start test of 750 drugs and 994 side effects.
+cold-scence.py: Cold start test of 750 drugs and 994 side effects.
+
+# Run
+```bash
+python warm-scence.py --tenfold --save_model --epoch 3000 --lr 0.0001
+```
+# Contact
+If you have any questions or suggestions with the code, please let us know. Contact ZiXiao Jin at wqq123@cug.edu.cn.
