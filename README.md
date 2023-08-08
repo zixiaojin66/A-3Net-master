@@ -24,13 +24,12 @@ This folder contains original side effects and drugs data.
   The standardised drug side effect frequency classes used in our study.
 
 
-
-2. warm-scence_data
+2.warm-scence_data
    
 This folder contains side effects and drugs data in warm start scence.
 
 
-3. cold-scence_data
+3.cold-scence_data
    
 This folder contains side effects and drugs data in cold start scence.
 
