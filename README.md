@@ -2,11 +2,9 @@
 A3Net is a deep learning model we proposed to predict the frequency of drug side effects.
 
 # Requirements
-* matplotlib==3.6.2
 * networkx==2.8.8
 * numpy==1.22.4
 * pandas==1.5.1
-* Pillow==9.4.0
 * rdkit==2022.9.4
 * rdkit-pypi==2022.9.4
 * scikit_learn==1.2.1
@@ -26,6 +24,7 @@ This folder contains original side effects and drugs data.
   The standardised drug side effect frequency classes used in our study.
 
 
+
 2. warm-scence_data
    
 This folder contains side effects and drugs data in warm start scence.
@@ -37,10 +36,14 @@ This folder contains side effects and drugs data in cold start scence.
 
 # Code 
 Net.py: It defines the model.
+
 vector.py: It defines a method to calculate the smiles of drugs as vertices and edges of a graph.
+
 utils.py: It defines some other functions.
-warm-scence.py: Warm start test of 750 drugs and 994 side effects.
-cold-scence.py: Cold start test of 750 drugs and 994 side effects.
+
+warm-scence.py: Warm start scence of 750 drugs and 994 side effects.
+
+cold-scence.py: Cold start scence of 750 drugs and 994 side effects.
 
 # Run
 ```bash
