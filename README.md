@@ -17,13 +17,13 @@ A3Net is a deep learning model we proposed to predict the frequency of drug side
 * torch-scatter==2.0.9
 * torch-sparse==0.6.15
   
-# Files
+# Files:
 1.data
 
 This folder contains original side effects and drugs data.
 
 * **frequency_data.txt:**
-The standardised drug side effect frequency classes used in our study.
+  The standardised drug side effect frequency classes used in our study.
 
 2. warm-scence_data
    
