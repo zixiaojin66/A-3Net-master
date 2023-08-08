@@ -1,5 +1,6 @@
 # A3Net
 A3Net is a deep learning model we proposed to predict the frequency of drug side effects.
+
 # Requirements
 * matplotlib==3.6.2
 * networkx==2.8.8
@@ -15,17 +16,23 @@ A3Net is a deep learning model we proposed to predict the frequency of drug side
 * torch-cluster==1.6.0
 * torch-scatter==2.0.9
 * torch-sparse==0.6.15
+  
 # Files
 1.data
+
 This folder contains original side effects and drugs data.
+
 * **frequency_data.txt:**
 The standardised drug side effect frequency classes used in our study.
 
 2. warm-scence_data
+   
 This folder contains side effects and drugs data in warm start scence.
 
 3. cold-scence_data
+   
 This folder contains side effects and drugs data in cold start scence.
+
 # Code 
 Net.py: It defines the model used by the code.
 vector.py: It defines a method to calculate the smiles of drugs as vertices and edges of a graph.
