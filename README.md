@@ -33,6 +33,10 @@ This folder contains side effects and drugs data in warm start scence.
    
 This folder contains side effects and drugs data in cold start scence.
 
+4.plots
+
+This folder contains all plots made in python in the paper.
+
 # Code 
 Net.py: It defines the model.
 
