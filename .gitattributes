@@ -1,1 +1,6 @@
-*.npy filter=lfs diff=lfs merge=lfs -text
+data2.npy filter=lfs diff=lfs merge=lfs -text
+data3.npy filter=lfs diff=lfs merge=lfs -text
+data4.npy filter=lfs diff=lfs merge=lfs -text
+data5.npy filter=lfs diff=lfs merge=lfs -text
+data6.npy filter=lfs diff=lfs merge=lfs -text
+data1.npy filter=lfs diff=lfs merge=lfs -text
