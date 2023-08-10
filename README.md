@@ -37,6 +37,21 @@ This folder contains side effects and drugs data in cold start scence.
 
 This folder contains all plots made in python in the paper.
 
+* **attention_map.py:**
+  It is used to make the heat map of attention.
+
+* **compare.py:**
+  It is uesd to make the pyramid chart comparing the true and predicted frequencies of some of the side effects of the drug Sumatriptan.
+
+* **cold_start_box plot.py:**
+  It is used to make the box plot showing the predicted frequency of the side effects of the drug Gadoteridol.
+
+* **density_A3Net.py:**
+  It is used to make the frequency kernel density estimation curve of the A3Net model.
+  
+* **density_MGPred.py:**
+  It is used to make the frequency kernel density estimation curve of the MGPred model.
+
 # Code 
 Net.py: It defines the model.
 
