@@ -23,6 +23,21 @@ This folder contains original side effects and drugs data.
 * **frequency_data.txt:**
   The standardised drug side effect frequency classes used in our study.
 
+* **drug_SMILES_750.csv:**
+  The SMILES representations of 750 drugs.
+
+ * **raw_frequency_750.mat:**
+   The original matrix of drug-adverse effect frequencies.
+
+* **side_effect_label_750.mat:**
+  The encoded features of side effects.
+
+* **mask_mat_750.mat:**
+  The mask matrix for ten-fold cross-validation in a warm-start scenario.
+
+* **blind_mask_mat_750.mat:**
+  The mask matrix for ten-fold cross-validation in a cold-start scenario.
+
 
 2.warm-scence_data
    
